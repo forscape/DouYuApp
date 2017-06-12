@@ -7,25 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		815B88C81EEE6E150052B2CE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88C71EEE6E150052B2CE /* HomeViewController.m */; };
+		815B88CC1EEEB0130052B2CE /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88CB1EEEB0130052B2CE /* LiveViewController.m */; };
+		815B88D21EEEB6E50052B2CE /* FocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88D11EEEB6E50052B2CE /* FocusViewController.m */; };
+		815B88D51EEEB6F90052B2CE /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88D41EEEB6F90052B2CE /* DiscoveryViewController.m */; };
+		815B88D81EEEB70D0052B2CE /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88D71EEEB70D0052B2CE /* MineViewController.m */; };
 		81FDDB111EEE29FA0093A3C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FDDB101EEE29FA0093A3C9 /* main.m */; };
 		81FDDB141EEE29FA0093A3C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FDDB131EEE29FA0093A3C9 /* AppDelegate.m */; };
 		81FDDB171EEE29FA0093A3C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FDDB161EEE29FA0093A3C9 /* ViewController.m */; };
 		81FDDB1A1EEE29FA0093A3C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FDDB181EEE29FA0093A3C9 /* Main.storyboard */; };
 		81FDDB1C1EEE29FA0093A3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FDDB1B1EEE29FA0093A3C9 /* Assets.xcassets */; };
 		81FDDB1F1EEE29FA0093A3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FDDB1D1EEE29FA0093A3C9 /* LaunchScreen.storyboard */; };
+		81FDDB2E1EEE51B00093A3C9 /* DYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FDDB2D1EEE51B00093A3C9 /* DYTabBarController.m */; };
+		81FDDB351EEE55290093A3C9 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FDDB341EEE55290093A3C9 /* UIColor+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		815B88C61EEE6E150052B2CE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		815B88C71EEE6E150052B2CE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		815B88CA1EEEB0130052B2CE /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		815B88CB1EEEB0130052B2CE /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		815B88D01EEEB6E50052B2CE /* FocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusViewController.h; sourceTree = "<group>"; };
+		815B88D11EEEB6E50052B2CE /* FocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusViewController.m; sourceTree = "<group>"; };
+		815B88D31EEEB6F90052B2CE /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		815B88D41EEEB6F90052B2CE /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		815B88D61EEEB70D0052B2CE /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		815B88D71EEEB70D0052B2CE /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		81FDDB0C1EEE29FA0093A3C9 /* DouYuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FDDB101EEE29FA0093A3C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81FDDB121EEE29FA0093A3C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		81FDDB131EEE29FA0093A3C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81FDDB121EEE29FA0093A3C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DouYuApp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		81FDDB131EEE29FA0093A3C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DouYuApp/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		81FDDB151EEE29FA0093A3C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		81FDDB161EEE29FA0093A3C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		81FDDB191EEE29FA0093A3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81FDDB1B1EEE29FA0093A3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81FDDB1E1EEE29FA0093A3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81FDDB201EEE29FA0093A3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81FDDB2C1EEE51B00093A3C9 /* DYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYTabBarController.h; sourceTree = "<group>"; };
+		81FDDB2D1EEE51B00093A3C9 /* DYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYTabBarController.m; sourceTree = "<group>"; };
+		81FDDB301EEE53AE0093A3C9 /* FontAndColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAndColorMacros.h; sourceTree = "<group>"; };
+		81FDDB331EEE55290093A3C9 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		81FDDB341EEE55290093A3C9 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		81FDDB361EEE56780093A3C9 /* DouYuApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DouYuApp-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +62,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		815B88C51EEE6DDF0052B2CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				815B88C61EEE6E150052B2CE /* HomeViewController.h */,
+				815B88C71EEE6E150052B2CE /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		815B88C91EEEAFC70052B2CE /* Living */ = {
+			isa = PBXGroup;
+			children = (
+				815B88CA1EEEB0130052B2CE /* LiveViewController.h */,
+				815B88CB1EEEB0130052B2CE /* LiveViewController.m */,
+			);
+			name = Living;
+			sourceTree = "<group>";
+		};
+		815B88CD1EEEB16F0052B2CE /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				815B88D01EEEB6E50052B2CE /* FocusViewController.h */,
+				815B88D11EEEB6E50052B2CE /* FocusViewController.m */,
+			);
+			name = Focus;
+			sourceTree = "<group>";
+		};
+		815B88CE1EEEB18C0052B2CE /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				815B88D31EEEB6F90052B2CE /* DiscoveryViewController.h */,
+				815B88D41EEEB6F90052B2CE /* DiscoveryViewController.m */,
+			);
+			name = Discovery;
+			sourceTree = "<group>";
+		};
+		815B88CF1EEEB1AF0052B2CE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				815B88D61EEEB70D0052B2CE /* MineViewController.h */,
+				815B88D71EEEB70D0052B2CE /* MineViewController.m */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
 		81FDDB031EEE29FA0093A3C9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +126,18 @@
 		81FDDB0E1EEE29FA0093A3C9 /* DouYuApp */ = {
 			isa = PBXGroup;
 			children = (
-				81FDDB121EEE29FA0093A3C9 /* AppDelegate.h */,
-				81FDDB131EEE29FA0093A3C9 /* AppDelegate.m */,
+				81FDDB311EEE53F70093A3C9 /* Utils */,
+				81FDDB2F1EEE535D0093A3C9 /* Define */,
+				81FDDB281EEE50C70093A3C9 /* BaseViewControllers */,
+				81FDDB271EEE50740093A3C9 /* AppDelegate */,
+				81FDDB261EEE4FB90093A3C9 /* Modules */,
 				81FDDB151EEE29FA0093A3C9 /* ViewController.h */,
 				81FDDB161EEE29FA0093A3C9 /* ViewController.m */,
 				81FDDB181EEE29FA0093A3C9 /* Main.storyboard */,
 				81FDDB1B1EEE29FA0093A3C9 /* Assets.xcassets */,
 				81FDDB1D1EEE29FA0093A3C9 /* LaunchScreen.storyboard */,
 				81FDDB201EEE29FA0093A3C9 /* Info.plist */,
+				81FDDB361EEE56780093A3C9 /* DouYuApp-Prefix.pch */,
 				81FDDB0F1EEE29FA0093A3C9 /* Supporting Files */,
 			);
 			path = DouYuApp;
@@ -77,6 +149,61 @@
 				81FDDB101EEE29FA0093A3C9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81FDDB261EEE4FB90093A3C9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				815B88CF1EEEB1AF0052B2CE /* Mine */,
+				815B88CE1EEEB18C0052B2CE /* Discovery */,
+				815B88CD1EEEB16F0052B2CE /* Focus */,
+				815B88C91EEEAFC70052B2CE /* Living */,
+				815B88C51EEE6DDF0052B2CE /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		81FDDB271EEE50740093A3C9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				81FDDB121EEE29FA0093A3C9 /* AppDelegate.h */,
+				81FDDB131EEE29FA0093A3C9 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		81FDDB281EEE50C70093A3C9 /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				81FDDB2C1EEE51B00093A3C9 /* DYTabBarController.h */,
+				81FDDB2D1EEE51B00093A3C9 /* DYTabBarController.m */,
+			);
+			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		81FDDB2F1EEE535D0093A3C9 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				81FDDB301EEE53AE0093A3C9 /* FontAndColorMacros.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		81FDDB311EEE53F70093A3C9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				81FDDB321EEE54270093A3C9 /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		81FDDB321EEE54270093A3C9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				81FDDB331EEE55290093A3C9 /* UIColor+Util.h */,
+				81FDDB341EEE55290093A3C9 /* UIColor+Util.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +278,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FDDB2E1EEE51B00093A3C9 /* DYTabBarController.m in Sources */,
 				81FDDB171EEE29FA0093A3C9 /* ViewController.m in Sources */,
 				81FDDB141EEE29FA0093A3C9 /* AppDelegate.m in Sources */,
 				81FDDB111EEE29FA0093A3C9 /* main.m in Sources */,
+				81FDDB351EEE55290093A3C9 /* UIColor+Util.m in Sources */,
+				815B88C81EEE6E150052B2CE /* HomeViewController.m in Sources */,
+				815B88D51EEEB6F90052B2CE /* DiscoveryViewController.m in Sources */,
+				815B88D81EEEB70D0052B2CE /* MineViewController.m in Sources */,
+				815B88CC1EEEB0130052B2CE /* LiveViewController.m in Sources */,
+				815B88D21EEEB6E50052B2CE /* FocusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +406,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9GJ37C6WXN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DouYuApp/DouYuApp-Prefix.pch";
 				INFOPLIST_FILE = DouYuApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.www.DouYuApp;
@@ -284,6 +420,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9GJ37C6WXN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DouYuApp/DouYuApp-Prefix.pch";
 				INFOPLIST_FILE = DouYuApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ethan.www.DouYuApp;
@@ -310,6 +448,7 @@
 				81FDDB251EEE29FA0093A3C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
