@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0E110A1F141B5200F53B38 /* RecommendFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E11091F141B5200F53B38 /* RecommendFlowLayout.m */; };
+		4E0E110D1F14253300F53B38 /* RecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E110C1F14253300F53B38 /* RecommendCell.m */; };
+		4ECE7E8F1EF02E7100EB625A /* FocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE7E8E1EF02E7100EB625A /* FocusViewController.m */; };
+		4ECE7E931EF02F0900EB625A /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE7E921EF02F0900EB625A /* TitleButton.m */; };
+		4ECE7E961EF0841D00EB625A /* WJItemsControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE7E951EF0841D00EB625A /* WJItemsControlView.m */; };
+		4ECE7E991EF0A5BB00EB625A /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE7E981EF0A5BB00EB625A /* RecommendViewController.m */; };
 		815B88C81EEE6E150052B2CE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88C71EEE6E150052B2CE /* HomeViewController.m */; };
 		815B88CC1EEEB0130052B2CE /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88CB1EEEB0130052B2CE /* LiveViewController.m */; };
-		815B88D21EEEB6E50052B2CE /* FocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88D11EEEB6E50052B2CE /* FocusViewController.m */; };
 		815B88D51EEEB6F90052B2CE /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88D41EEEB6F90052B2CE /* DiscoveryViewController.m */; };
 		815B88D81EEEB70D0052B2CE /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B88D71EEEB70D0052B2CE /* MineViewController.m */; };
 		81FDDB111EEE29FA0093A3C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FDDB101EEE29FA0093A3C9 /* main.m */; };
@@ -23,16 +28,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E0E11081F141B5200F53B38 /* RecommendFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendFlowLayout.h; sourceTree = "<group>"; };
+		4E0E11091F141B5200F53B38 /* RecommendFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendFlowLayout.m; sourceTree = "<group>"; };
+		4E0E110B1F14253300F53B38 /* RecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendCell.h; sourceTree = "<group>"; };
+		4E0E110C1F14253300F53B38 /* RecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendCell.m; sourceTree = "<group>"; };
+		4ECE7E8D1EF02E7100EB625A /* FocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusViewController.h; sourceTree = "<group>"; };
+		4ECE7E8E1EF02E7100EB625A /* FocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusViewController.m; sourceTree = "<group>"; };
+		4ECE7E911EF02F0900EB625A /* TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
+		4ECE7E921EF02F0900EB625A /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
+		4ECE7E941EF0841D00EB625A /* WJItemsControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJItemsControlView.h; sourceTree = "<group>"; };
+		4ECE7E951EF0841D00EB625A /* WJItemsControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJItemsControlView.m; sourceTree = "<group>"; };
+		4ECE7E971EF0A5BB00EB625A /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		4ECE7E981EF0A5BB00EB625A /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
 		815B88C61EEE6E150052B2CE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		815B88C71EEE6E150052B2CE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		815B88CA1EEEB0130052B2CE /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
 		815B88CB1EEEB0130052B2CE /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
-		815B88D01EEEB6E50052B2CE /* FocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusViewController.h; sourceTree = "<group>"; };
-		815B88D11EEEB6E50052B2CE /* FocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusViewController.m; sourceTree = "<group>"; };
-		815B88D31EEEB6F90052B2CE /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
-		815B88D41EEEB6F90052B2CE /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
-		815B88D61EEEB70D0052B2CE /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		815B88D71EEEB70D0052B2CE /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		815B88D31EEEB6F90052B2CE /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoveryViewController.h; path = DouYuApp/Modules/DiscoveryViewController.h; sourceTree = SOURCE_ROOT; };
+		815B88D41EEEB6F90052B2CE /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoveryViewController.m; path = DouYuApp/Modules/DiscoveryViewController.m; sourceTree = SOURCE_ROOT; };
+		815B88D61EEEB70D0052B2CE /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = DouYuApp/Modules/MineViewController.h; sourceTree = SOURCE_ROOT; };
+		815B88D71EEEB70D0052B2CE /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = DouYuApp/Modules/MineViewController.m; sourceTree = SOURCE_ROOT; };
 		81FDDB0C1EEE29FA0093A3C9 /* DouYuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FDDB101EEE29FA0093A3C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81FDDB121EEE29FA0093A3C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DouYuApp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -62,13 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ECE7E901EF02EDC00EB625A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4ECE7E941EF0841D00EB625A /* WJItemsControlView.h */,
+				4ECE7E951EF0841D00EB625A /* WJItemsControlView.m */,
+				4ECE7E911EF02F0900EB625A /* TitleButton.h */,
+				4ECE7E921EF02F0900EB625A /* TitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		815B88C51EEE6DDF0052B2CE /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4ECE7E901EF02EDC00EB625A /* View */,
 				815B88C61EEE6E150052B2CE /* HomeViewController.h */,
 				815B88C71EEE6E150052B2CE /* HomeViewController.m */,
+				4ECE7E971EF0A5BB00EB625A /* RecommendViewController.h */,
+				4ECE7E981EF0A5BB00EB625A /* RecommendViewController.m */,
+				4E0E11081F141B5200F53B38 /* RecommendFlowLayout.h */,
+				4E0E11091F141B5200F53B38 /* RecommendFlowLayout.m */,
+				4E0E110B1F14253300F53B38 /* RecommendCell.h */,
+				4E0E110C1F14253300F53B38 /* RecommendCell.m */,
 			);
-			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		815B88C91EEEAFC70052B2CE /* Living */ = {
@@ -77,16 +110,16 @@
 				815B88CA1EEEB0130052B2CE /* LiveViewController.h */,
 				815B88CB1EEEB0130052B2CE /* LiveViewController.m */,
 			);
-			name = Living;
+			path = Living;
 			sourceTree = "<group>";
 		};
 		815B88CD1EEEB16F0052B2CE /* Focus */ = {
 			isa = PBXGroup;
 			children = (
-				815B88D01EEEB6E50052B2CE /* FocusViewController.h */,
-				815B88D11EEEB6E50052B2CE /* FocusViewController.m */,
+				4ECE7E8D1EF02E7100EB625A /* FocusViewController.h */,
+				4ECE7E8E1EF02E7100EB625A /* FocusViewController.m */,
 			);
-			name = Focus;
+			path = Focus;
 			sourceTree = "<group>";
 		};
 		815B88CE1EEEB18C0052B2CE /* Discovery */ = {
@@ -96,6 +129,7 @@
 				815B88D41EEEB6F90052B2CE /* DiscoveryViewController.m */,
 			);
 			name = Discovery;
+			path = Discover;
 			sourceTree = "<group>";
 		};
 		815B88CF1EEEB1AF0052B2CE /* Mine */ = {
@@ -104,7 +138,7 @@
 				815B88D61EEEB70D0052B2CE /* MineViewController.h */,
 				815B88D71EEEB70D0052B2CE /* MineViewController.m */,
 			);
-			name = Mine;
+			path = Mine;
 			sourceTree = "<group>";
 		};
 		81FDDB031EEE29FA0093A3C9 = {
@@ -279,15 +313,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FDDB2E1EEE51B00093A3C9 /* DYTabBarController.m in Sources */,
+				4ECE7E931EF02F0900EB625A /* TitleButton.m in Sources */,
+				4E0E110D1F14253300F53B38 /* RecommendCell.m in Sources */,
+				4E0E110A1F141B5200F53B38 /* RecommendFlowLayout.m in Sources */,
 				81FDDB171EEE29FA0093A3C9 /* ViewController.m in Sources */,
 				81FDDB141EEE29FA0093A3C9 /* AppDelegate.m in Sources */,
 				81FDDB111EEE29FA0093A3C9 /* main.m in Sources */,
+				4ECE7E991EF0A5BB00EB625A /* RecommendViewController.m in Sources */,
 				81FDDB351EEE55290093A3C9 /* UIColor+Util.m in Sources */,
+				4ECE7E961EF0841D00EB625A /* WJItemsControlView.m in Sources */,
 				815B88C81EEE6E150052B2CE /* HomeViewController.m in Sources */,
 				815B88D51EEEB6F90052B2CE /* DiscoveryViewController.m in Sources */,
 				815B88D81EEEB70D0052B2CE /* MineViewController.m in Sources */,
 				815B88CC1EEEB0130052B2CE /* LiveViewController.m in Sources */,
-				815B88D21EEEB6E50052B2CE /* FocusViewController.m in Sources */,
+				4ECE7E8F1EF02E7100EB625A /* FocusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
